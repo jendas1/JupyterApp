@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181640101BC463FD00F41C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816400F1BC463FD00F41C13 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		188D50E41BC4421E007CA061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D50E31BC4421E007CA061 /* AppDelegate.swift */; };
-		188D50E61BC4421E007CA061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188D50E51BC4421E007CA061 /* Assets.xcassets */; };
 		188D50E91BC4421E007CA061 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188D50E71BC4421E007CA061 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1816400F1BC463FD00F41C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188D50E01BC4421E007CA061 /* Jupyter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jupyter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188D50E31BC4421E007CA061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		188D50E51BC4421E007CA061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188D50E81BC4421E007CA061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		188D50EA1BC4421E007CA061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				188D50E31BC4421E007CA061 /* AppDelegate.swift */,
-				188D50E51BC4421E007CA061 /* Assets.xcassets */,
 				188D50E71BC4421E007CA061 /* MainMenu.xib */,
+				1816400F1BC463FD00F41C13 /* Assets.xcassets */,
 				188D50EA1BC4421E007CA061 /* Info.plist */,
 			);
 			path = Jupyter;
@@ -115,7 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188D50E61BC4421E007CA061 /* Assets.xcassets in Resources */,
+				181640101BC463FD00F41C13 /* Assets.xcassets in Resources */,
 				188D50E91BC4421E007CA061 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +268,7 @@
 				188D50EF1BC4421E007CA061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
